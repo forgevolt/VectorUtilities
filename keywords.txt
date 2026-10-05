@@ -1,0 +1,66 @@
+#######################################
+# Syntax coloring for VectorUtilities
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Vector2	KEYWORD1
+Vector3	KEYWORD1
+vectorutilities	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+toString	KEYWORD2
+printTo	KEYWORD2
+clamp	KEYWORD2
+normalize	KEYWORD2
+length	KEYWORD2
+lengthSqr	KEYWORD2
+distance	KEYWORD2
+distanceSqr	KEYWORD2
+rotate	KEYWORD2
+dot	KEYWORD2
+cross	KEYWORD2
+angle	KEYWORD2
+angleTo	KEYWORD2
+perpendicular	KEYWORD2
+reflect	KEYWORD2
+minimum	KEYWORD2
+maximum	KEYWORD2
+moveTowards	KEYWORD2
+project	KEYWORD2
+reject	KEYWORD2
+rotateAroundAxis	KEYWORD2
+wrapPi	KEYWORD2
+mapf	KEYWORD2
+floatEquals	KEYWORD2
+clampf	KEYWORD2
+lerpf	KEYWORD2
+wrap	KEYWORD2
+smoothstep	KEYWORD2
+smootherstep	KEYWORD2
+lowPassFilter	KEYWORD2
+sqr	KEYWORD2
+lerp	KEYWORD2
+bezier2	KEYWORD2
+bezier3	KEYWORD2
+minjerk	KEYWORD2
+circularNormalization	KEYWORD2
+rotateAroundX	KEYWORD2
+rotateAroundY	KEYWORD2
+rotateAroundZ	KEYWORD2
+rotateXYZ	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+cPI	LITERAL1
+cTwoPI	LITERAL1
+cEPSILON	LITERAL1
+deg2rad	LITERAL1
+rad2deg	LITERAL1
