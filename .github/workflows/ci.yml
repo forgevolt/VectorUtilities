@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: arduino/arduino-lint-action@v2
+      - uses: arduino/arduino-lint-action@v3
         with:
           library-manager: submit   # change to "update" once the library is in the Library Manager
           compliance: strict
