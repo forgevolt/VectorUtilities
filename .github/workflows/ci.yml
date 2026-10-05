@@ -13,13 +13,13 @@ jobs:
       matrix:
         std: [c++11, c++17]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: make -C test run examples STD=${{ matrix.std }}
 
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: arduino/arduino-lint-action@v2
         with:
           library-manager: submit   # change to "update" once the library is in the Library Manager
@@ -41,11 +41,11 @@ jobs:
           - fqbn: arduino:mbed_rp2040:pico
             platforms: |
               - name: arduino:mbed_rp2040
-          - fqbn: arduino:renesas_uno:unor4minima
+          - fqbn: arduino:renesas_uno:minima
             platforms: |
               - name: arduino:renesas_uno
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: arduino/compile-sketches@v1
         with:
           fqbn: ${{ matrix.board.fqbn }}
